@@ -1,1 +1,1 @@
-Dockerfile for Seravo/wordpress projects.
+Docker image for Seravo/wordpress projects.
