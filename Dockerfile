@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y gnupg apt-transport-https && \
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    unzip openssh-client nodejs yarn && \
+    git unzip openssh-client nodejs yarn && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
     curl -sL https://sentry.io/get-cli/ | bash
 
