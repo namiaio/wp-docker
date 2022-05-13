@@ -1,4 +1,4 @@
-FROM cypress/included:8.7.0
+FROM cypress/included:9.6.1
 
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
