@@ -1,4 +1,4 @@
-FROM php:7.4
+FROM php:8.1
 
 # Install dependencies for yarn installation
 RUN apt-get update && apt-get install -y gnupg apt-transport-https && \
